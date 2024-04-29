@@ -1,0 +1,26 @@
+.usermenu {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.meal-tab {
+    margin-top: 94px;
+    width: 80% !important;
+    margin-bottom: 30px;
+    background-color: #EFEFEF;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.semi-thead {
+    width: 137px !important;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2D60B1;
+}
+.tab {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

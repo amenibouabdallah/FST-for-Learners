@@ -1,0 +1,51 @@
+/* style titre */
+h2 {
+    position: relative;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 35px;
+    color: black;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    width: 100%;
+} 
+h2::after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    width: 40%;
+    height: 5px;
+    background-color: #2D60B1; /* Couleur du soulignement */
+}
+.profile-btns1 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25%;
+}
+button.save-btn1 {
+    width: 15%;
+    color: white;
+    background-color: #2D60B1;
+    margin-left: 2%;
+    border-radius: 20px;
+    height: 40px;
+    border: 0;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+button.reset-btn1 {
+    width: 15%;
+    color: black;
+    background-color: white;
+    margin-left: 2%;
+    border-radius: 20px;
+    height: 40px;
+    border: 1px solid #2D60B1 ;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,153 @@
+@media only screen and (max-width: 768px){
+    h2 {
+        font-size: 25px;
+        margin-left: 0px;
+    }
+    .resto-tab {
+        width: 75%;
+        overflow: scroll;
+    }
+    .sidebar {
+        width: 25%;
+
+    }
+    .filtres{
+        justify-content: unset;
+    }
+    .filters{
+        justify-content: unset;
+        margin-left: 0 !important;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 100% !important;
+        align-items: center;
+    }
+    .filters1{
+        margin-bottom: 20px;
+        width: 100% !important;
+        align-items: center;
+    }
+    .filters2{
+        margin-bottom: 20px;
+        width: 100% !important;
+        align-items: center;
+        flex-direction: column;
+    }
+    select.filter.select-filter {
+        min-height: 40px;
+    }
+    .users-tab-wrapper {
+        margin-top:0px;
+    }
+    .select-filter{
+        margin-bottom: 10px;
+    }
+    .admin-head{
+        flex-direction: column;
+        align-items: stretch !important;
+    }
+    .title1{
+        margin-bottom: 10px;
+        margin-left: 3%;
+    }
+    .users-tab-wrapper {
+        max-height: 200px;
+    }
+    .users-tab th, .users-tab td {
+        font-size: 13px !important;
+        padding: 0 10px;
+    }
+    .cont-resto{
+        justify-content: unset;
+    }
+    .meal-tab {
+        margin-top: 10px;
+    }
+    .tab-scroll {
+        display: unset;
+      }
+      .semi-thead {
+        font-size: 13px;
+    }
+    th{
+        font-size: 15px !important;
+    }
+    .submit {
+        width: 50%;
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 40px;
+    }
+    .trans-form {
+        display: unset;
+    }
+    .users-tab-wrapper1 {
+        max-height: 495px;
+        margin-top: 0px;
+    }
+    .upload-img-cont {
+        display: none;
+    }
+    .upload-form-cont {
+        width: 100%;
+    }
+    .sidebar-item {
+        font-size: 14px;
+    }
+    .profile-label {
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    p.current {
+        font-size: 14px;
+    }
+    p.new-label {
+        font-size: 12px;
+    }
+    .profile-form {
+        width: 100%;
+    }
+    .profile-page {
+        width: 100%;
+        margin: 20px 5px;
+    }
+    input.profile-input {
+        font-size: 13px;
+        min-width: 0;
+    }
+    .profile-btns1 {
+        margin-top: 30px;
+        margin-right: 5%;
+    }
+    button.save-btn1 {
+        width: 35%;
+        font-size: 13px;
+    }
+    button.reset-btn1 {
+        width: 35%;
+        font-size: 13px;
+    }
+    button.save-btn {
+        width: 35%;
+        font-size: 13px;
+    }
+    button.reset-btn {
+        width: 35%;
+        font-size: 13px;
+    }
+    .upload-form1{
+        margin-top: 10px !important;
+    }
+    .profile-forms {
+        flex-direction: column;
+    }
+    .profile-img-btn {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .usermenu {
+        overflow-y: hidden;
+    }
+}

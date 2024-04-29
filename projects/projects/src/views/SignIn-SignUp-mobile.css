@@ -1,0 +1,67 @@
+@media only screen and (max-width: 768px) {
+    .right-part{
+        display: none;
+    }
+    .left-part{
+        width: 100%;
+    }
+    /* background image */
+    .left-part {
+        position: relative;
+        width: 100%;
+        background-image: url('./../assets/images/Campus.jpg');
+        background-size: cover;
+        background-position: center;
+        z-index: 99;
+    }
+      .left-part::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5); /* Couleur blanche semi-transparente */
+        backdrop-filter: blur(3px); /* Flou du voile */
+        z-index: -1;
+    }
+      /* logo */
+      .nobg-logo {
+        width: 30%;
+    }
+    .title {
+        font-size: 35px;
+    }
+    .login-input {
+
+        font-size: 13px !important;
+        width: 80%;
+        height: 40px;
+        margin-bottom: 20px;
+        padding-left: 4%;
+    }
+    .login-input::placeholder {  
+        font-size: 13px!important;
+    }
+    .mdp {
+        font-size: 13px!important;
+    }
+    .lost-password {
+        width: 90%;
+    }
+    .submit-button{
+        font-size: 13px;
+        width: 50%;
+        height: 40px;
+        margin-bottom: 10px;  
+    }  
+    .file-input-label {
+        width: 80%;
+        height: 170px;
+        font-size: 13px;
+    }
+    .alert.alert-danger {
+        width: 60%;
+        margin: 0;
+    }
+}

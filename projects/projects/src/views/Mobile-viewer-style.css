@@ -1,0 +1,9 @@
+@media only screen and (max-width: 768px){
+    .viewers-meal-tab {
+        margin: 7% !important;
+
+    }
+    .tab {
+        justify-content: unset !important;
+    }
+}

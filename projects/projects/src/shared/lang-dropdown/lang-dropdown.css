@@ -1,0 +1,14 @@
+.dropdown-toggle{
+    color: black!important;
+    width: 180px!important;
+    height: auto!important;
+    font-size: 16px!important;
+    text-align: left!important;
+    font-family: Poppins!important;
+    font-weight: 400!important;
+    border-radius: 35px!important;
+}
+span{
+    font-family: Poppins;
+    text-align: left;
+}

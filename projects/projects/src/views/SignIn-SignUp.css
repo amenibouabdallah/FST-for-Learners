@@ -1,0 +1,216 @@
+/* page style */
+.left-part{
+  background-color:#EFEFEF;
+  width: 60%;
+  
+}
+.right-part{
+  width: 40%;
+  height: 100vh; /* Set a fixed height */
+    overflow: hidden; /* Hide overflow */
+  
+}
+.login-view{
+  min-height: 100vh !important;
+  display: flex;
+  overflow: hidden; /* Prevent scrolling */
+}
+/* dropdown style */
+.lang{
+  display: flex;
+  justify-content: flex-end;
+}
+.lang-bg{
+  background-color: white !important;
+}
+/* logo style */
+.logo{
+  display: flex;
+  justify-content: center;
+}
+.nobg-logo{
+  height: auto;
+  width: 20%;
+}
+/* image style */
+.campus{
+  width: 100%;
+  max-height: 100%;
+}
+/* title style */
+.title{
+  font-size: 48px;
+  font-family: Poppins;
+  text-align: center;
+  color: #2D60B1;
+  margin-top: 20px;
+  font-weight:600;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* login form */
+.login-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+.alert.alert-danger {
+  width: 60%;
+}
+.login-input {
+  color: black;
+  font-size: 16px !important;
+  text-align: left !important;
+  font-family: Poppins !important;
+  font-weight: 400 !important;
+  border-radius: 35px !important;
+  width: 60%;
+  /* border: 0px; */ /* Remove this line */
+  border: 1px solid transparent !important; /* Add a transparent border to keep the layout */
+  height: 53px;
+  margin-bottom: 30px;
+  padding-left: 3%;
+  background-color: white;
+}
+
+.login-input::placeholder {
+  color: #CDD2D8 !important;
+  font-size: 16px!important;
+  text-align: left!important;
+  font-family: Poppins!important;
+  font-weight: 400!important;
+}
+/* lost password */
+.lost-password{
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+}
+.mdp{
+  font-size: 16px!important;
+  font-family: Poppins!important;
+  font-weight: 500!important;
+  color: black;
+}
+/* submit button */
+.submit-button{
+  font-family: Poppins!important;
+  font-weight: 400!important;
+  font-size: 16px;
+  border-radius: 35px!important;
+  width: 60%;
+  border: 0px;
+  height: 53px;
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+  background-color: #FFDA6F;
+  margin-top: 10px;
+}
+/* Créer un compte */
+.signup{
+  margin-top: 30px;
+}
+/* slection dropdown */
+.form-select {
+  --bs-form-select-bg-img: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3e%3cpath fill=%27none%27 stroke=%27%23CDD2D8%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m2 5 6 6 6-6%27/%3e%3c/svg%3e') !important;
+  color: #CDD2D8 !important;
+  font-size: 16px!important;
+  text-align: left!important;
+  font-family: Poppins!important;
+  font-weight: 400!important;
+  transition: border-color 0.15s ease-in-out !important;
+  }
+option{
+  color: black !important;
+  font-size: 16px!important;
+  text-align: left!important;
+  font-family: Poppins!important;
+  font-weight: 400!important;
+}
+/* upload file */
+.file-input {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.file-input input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px; /* Taille de police pour masquer le texte par défaut */
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0); /* Pour IE */
+}
+.file-input-label {
+  display: inline-block;
+  padding-top:50px;
+  background-color: white;
+  color: #CDD2D8;
+  border-radius: 35px;
+  cursor: pointer;
+  width: 60%;
+  height: 200px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.upload-text{
+  margin-bottom: 0 !important;
+}
+/* error message */
+.error-message {
+  font-size: small;
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+.true-message {
+  font-size: small;
+  color: green;
+  text-align: center;
+  margin-top: 10px;
+}
+/* verify */
+.verify{
+  text-align: center;
+}
+.code-button{
+  width: 100%;
+}
+.input-code{
+  width:7vh;
+  height: 7vh;
+  border-radius: 20px;
+  background-color: white;
+  border: 0px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-family: Poppins;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.input-code::placeholder{
+  text-align: center;
+  font-size: 10px;
+  font-family: Poppins;
+  color: #CDD2D8;
+  padding-top: 5px !important;
+  transform: scale(3);
+  opacity: 1;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2%;
+  text-align: center;
+}
+.verify-message{
+  margin: 60px!important;
+}

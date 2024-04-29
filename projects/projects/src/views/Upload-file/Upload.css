@@ -1,0 +1,27 @@
+.upload-img-cont {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.upload-img{
+    width: 80%;
+}
+.upload-form-cont{
+    width: 60%;
+}
+.upload{
+    background-color: #efefef !important;
+    color: black !important;
+}
+.cal{
+    padding-right: 3%;
+}
+.upload::placeholder{
+    color: black !important;
+}
+.user-upload{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 10% 0 10%;
+}

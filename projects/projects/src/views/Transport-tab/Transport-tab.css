@@ -1,0 +1,25 @@
+.table1 th,
+.table1 td {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #EFEFEF !important;
+
+}
+.table1 {
+    border-collapse: separate;
+    width: 80%;
+    margin: 30px;
+    box-shadow: none;
+    border: black;
+}
+.table1>thead {
+    vertical-align: middle;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+.table1 {
+    vertical-align: middle;
+    margin-top: 94px !important;
+}

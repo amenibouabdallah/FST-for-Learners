@@ -1,0 +1,111 @@
+.custom-file-upload {
+    display: inline-block;
+    padding: 6px 24px;
+    cursor: pointer;
+    background-color: #FFDA6F;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+  
+  .custom-file-upload:hover {
+    display: inline-block;
+    padding: 6px 24px;
+    cursor: pointer;
+    background-color: #FFDA6F;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+  }
+  
+  .profile-picture {
+    width: 100%;
+    border-radius: 35px;
+    margin-bottom: 30px;
+  }
+.profile-page{
+    width: 100%;
+    margin: 30px;
+    margin-top: 94px;
+}  
+.profile-img-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+.profile-forms {
+    display: flex;
+    justify-content: space-evenly;
+}
+.profile-form {
+    width: 50%;
+    padding: 4%;
+    border: solid #2D60B1;
+    border-radius: 20px;
+}
+.prof-element{
+    display: flex;
+    width: 100%;
+}
+.prof-label{
+    width: 100%;
+}
+.profile-label{
+    width: 40%;
+    font-size: 20px;
+    font-family: Poppins;
+}
+p.current {
+    margin: 0;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+p.new-label {
+    margin: 0;
+    font-size: 14px;
+    font-family: Poppins;
+    margin-bottom: 5px;
+}
+input.profile-input {
+    border: 1px solid #2D60B1;
+    border-radius: 20px;
+    min-width: 32vh;
+    padding-left: 5%;
+    margin-bottom: 10px;
+}
+.profile-btns {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 12%;
+}
+button.save-btn {
+    width: 10%;
+    color: white;
+    background-color: #2D60B1;
+    margin-left: 2%;
+    border-radius: 20px;
+    height: 40px;
+    border: 0;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+button.reset-btn {
+    width: 10%;
+    color: black;
+    background-color: white;
+    margin-left: 2%;
+    border-radius: 20px;
+    height: 40px;
+    border: 1px solid #2D60B1 ;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
